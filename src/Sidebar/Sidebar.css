@@ -1,0 +1,40 @@
+/* Sidebar */
+.sidebar {
+    width: 15%; /* Ensure this is wide enough for all content */
+    position: fixed;
+    height: 100%; /* Sidebar takes the full height of the viewport */
+    left: 0; /* Keep the sidebar on the left side of the screen */
+    top: 0; /* Ensure the sidebar starts from the top */
+    border-right: 2px solid #e5e5e5; /* Visual separation */
+    z-index: 3; /* Ensure it's above other content */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items within the sidebar */
+    padding: 1rem; /* Add padding */
+    background-color: #fff; /* Set a background color */
+    overflow-y: auto; /* Allow vertical scrolling if content overflows */
+}
+
+
+/* Sidebar Logo Container */
+.logo-container {
+    margin-bottom: 4rem; /* Add space below the logo */
+}
+
+.logo-container h1 {
+    margin-top: 1.3rem; /* Ensure the logo has space at the top */
+}
+
+/* Sidebar Components */
+.sidebar-compo {
+    display: flex;
+    flex-direction: column; /* Ensures components are stacked vertically */
+    width: 100%; /* Make sure components take the full width of the sidebar */
+}
+
+.sidebar-title {
+    font-size: 22px; /* Correct font size property */
+    font-weight: normal;
+    margin-bottom: 20px; /* Add space below the title */
+}
+
